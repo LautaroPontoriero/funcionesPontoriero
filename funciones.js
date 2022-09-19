@@ -1,6 +1,11 @@
 debugger
 
 //Calcular cuotas monto determinado
+let edad= parseInt(prompt("Ingrese su edad"));
+while (edad < 18) {
+    console.log("Sos menor de edad, no podes solicitar un prestamo!");
+    edad= parseInt(prompt("Ingrese su edad"));
+}
 
     let nombre = prompt("Ingrese su nombre por favor").toUpperCase();
     alert("Hola " + nombre)
